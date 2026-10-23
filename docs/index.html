@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ultimate Catalog · Web Game Ports</title>
+  <meta name="description" content="A browsable, genre-sorted catalog of browser game ports, merged from two awesome lists.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='3' y='3' width='10' height='10' rx='2' fill='%23a855f7' transform='rotate(45 8 8)'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div id="orb-labels" aria-hidden="true"></div>
+
+  <div class="shell">
+    <header class="topbar">
+      <a class="logo" href="#/"><span class="logo-mark" aria-hidden="true"></span>Ultimate Catalog</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/">Home</a>
+        <a href="#/catalog">Catalog</a>
+        <a href="https://github.com/Carter54git/Ultimate-Catalog-Of-Web-Game-Ports" target="_blank" rel="noopener noreferrer">Original list ↗</a>
+      </nav>
+    </header>
+
+    <main id="app">
+      <p class="empty">Loading the arcade…</p>
+    </main>
+
+    <footer class="footer">
+      <p>Merged from <a href="https://github.com/Carter54git/Ultimate-Catalog-Of-Web-Game-Ports" target="_blank" rel="noopener noreferrer">Carter54git's Ultimate Catalog</a> and <a href="https://github.com/bitburner/Awesome-Browser-Game-Ports" target="_blank" rel="noopener noreferrer">bitburner's Awesome Browser Game Ports</a>. Links point to third-party projects; many ports need your own game files.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
